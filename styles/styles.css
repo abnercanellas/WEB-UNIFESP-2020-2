@@ -1,0 +1,89 @@
+h1,h2{
+    margin: 0px;
+    padding: 0px;
+}
+body, html{
+    /* #6AA5A9 #01B169*/
+    background-color: #d4d5d6;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+#menuCabecalho{
+    background-color: #374249;
+    padding: 20px;
+    position: fixed;
+    height: 20px;
+    width: 100%;
+    float: left;
+}
+#menuCabecalho a{
+    color: #F2F2F2;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.7%;
+}
+#menuCabecalho a:hover{
+    background-color: #4c8399;
+    color: #F2F2F2;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.7%;
+}
+
+#principal{
+    width: 920px;
+    margin: 0px auto;
+    color: #22292e;
+}
+
+#headerA{
+    background-color: #6AA5A9 ;
+    padding: 70px 15px 5px 15px;
+    margin: 0px;
+    min-height: 400px;
+}
+#headerA img{
+    padding-right: 15px;
+}
+#conteudo{
+    background-color: #F2F2F2 ;
+    min-height:520px;
+    padding: 15px;
+}
+#tabela{
+    background-color: #F2F2F2;
+    width: 100%;
+    margin: 0px;
+    border-spacing: 0px;
+}
+#tabela th{
+    background-color: #cacaca;
+    width: 33.3%;
+}
+#tabela td{
+    padding: 5px;
+    width: 33.3%;
+    text-align: center;
+}
+#rodape{
+    background-color: #01B169;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px;
+}
+
+.flowl{
+    float: left;
+}
+.centralizar{
+    text-align: center;
+    padding: 0.1%;
+}
+.cinzaEscuro{
+    background-color: #858585;
+}
+.cinzaClaro{
+    background-color: #afb3b6;
+}
