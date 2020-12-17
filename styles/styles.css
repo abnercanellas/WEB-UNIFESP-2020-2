@@ -38,11 +38,6 @@ body, html{
     padding: 20px;
     line-height: 50px;
 }
-#menuCabecalho .divisor{
-    color: #ffffff;
-    font-size: 30px;
-}
-
 #principal{
     width: 920px;
     margin: 0px auto;
@@ -61,13 +56,6 @@ body, html{
     height: auto;
     width: auto;
     float: left ;
-}
-#headerA .texto{
-    margin-right: 20px;
-    margin-bottom: 20px;
-    color: #000;
-    width: 530px;
-    float: right;
 }
 #headerA .espacoInicial{
     padding-top: 80px;
@@ -102,6 +90,17 @@ body, html{
     padding: 10px;
 }
 
+.texto{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: #000;
+    width: 530px;
+    float: right;
+}
+.divisor{
+    color: #ffffff;
+    font-size: 30px;
+}
 .centralizar{
     text-align: center;
     padding: 0.1%;
