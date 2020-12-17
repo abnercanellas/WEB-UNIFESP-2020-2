@@ -41,7 +41,6 @@ body, html{
 #principal{
     width: 920px;
     margin: 0px auto;
-    color: #22292e;
 }
 
 #headerA{
@@ -94,7 +93,7 @@ body, html{
     margin-right: 20px;
     margin-bottom: 20px;
     color: #000;
-    width: 530px;
+    width: 520px;
     float: right;
 }
 .divisor{
