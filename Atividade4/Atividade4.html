@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Atividade 3</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../styles/styles.css">
+    </head>
+
+    <body>
+        
+        <div id="menuCabecalho">
+            <a href="../index.html">HOME</a> <span class="divisor">|</span>
+            <a href="../Materias/CG/cg.html">CG</a> <span class="divisor">|</span>
+            <a href="../Materias/PAA/paa.html">PAA</a> <span class="divisor">|</span>
+            <a href="../Materias/WEB/web.html">WEB</a> <span class="divisor">|</span>
+            <a href="../../Sobre/sobre.html">SOBRE</a>
+        </div>
+
+        <div id="principal">   
+            
+            <div id="headerA">
+                <div class="espacoInicial">
+                    <img src="../Imgs/logoUnifespVerdeEscuro.png" alt="logoUnifesp">
+                <div class="texto">
+                    <h1 class="espacoInicial">Entre em Contato Conosco</h1><br>
+                </div>
+                <div style="clear: both;"></div>
+                </div>
+            </div>
+
+            <div id="conteudo">
+                <h2>
+                </h2>
+
+                <fieldset>
+                    <legend>Formulario de Contato</legend>
+                    <br>
+                    <form action="">
+                        <label for="emailRemetente">Digite seu email:</label><br>
+                        <input type="email" name="emailRemetente" id="emailRemetente" placeholder="fulano@email.com"><br>
+                        <label for="emailDestinatario">Deseja alterar o destinatário?</label><br>
+                        <input type="email" name="emailDestinatario" id="emailDestinatario" placeholder="abner.canellas@unifesp.br"><br>
+                        <label for="assunto">Qual o motivo do contato?</label><br>
+                        <input type="text" name="assunto" id="assunto" placeholder="Digite aqui o assunto do contato"><br>
+                        <label for="mensagem">Descreva sua mensagem</label><br>
+                        <textarea name="mensagem" id="mensagem" cols="120" rows="10" placeholder="Digite aqui sua mensagem"></textarea><br>
+                        <br>
+
+                        
+                        <input type="reset" value="Limpar" id="reset">
+                        <input type="submit" value="Enviar" id="submit" onclick="alert('Email enviado de '+ document.getElementById('emailRemetente').value +'\nPara '+document.getElementById('emailDestinatario').value);return true;">
+                    </form>
+                    <br>
+                </fieldset>
+            </div>
+
+        </div>
+
+        <div id="rodape" class="centralizar">
+            <em>
+                Esta pagina trata-se da consolidação das explicações de aula do professor Ezequiel R. Zorzal,
+                da disciplina Tópicos em Tecnologias da Computação IV - Programação Web.<br>
+                Abner Canellas <br>
+            </em>
+        </div>
+    </body>
+</html>
